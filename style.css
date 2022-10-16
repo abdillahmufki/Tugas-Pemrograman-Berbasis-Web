@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #030b88;
+  border: 1px solid black;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  margin: 50px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin: auto;
+  margin-left: 100px;
+  height: 85px;
+  width: 75px;
+}
+
+.nav__links {
+  list-style: none;
+  padding-right: 225px;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  margin: auto;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(0, 136, 139, 1);
+}
+
+.content {
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  margin-top: 320px;
+  margin-bottom: 50px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.content-left {
+  border: 1px solid black;
+  width: 900px;
+  height: 100%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content-right {
+  width: 250px;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid black;
+  width: 100%;
+  height: 262px;
+  margin-bottom: 5px;
+}
+.item img {
+  width: 240px;
+  height: 180px;
+  margin: 5px;
+}
+
+.item p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.item:last-of-type {
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #030b88;
+  border: 1px solid black;
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.footer-h3{
+  color: white;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+footer .socials{
+  text-align: center;
+  padding bottom:25px;
+  color: #4b4c4d;
+}
+
+footer .socials a{
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #acc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 15px 8px 0px 15px;
+  opacity: 0.75;
+}
+
+footer .social a:hover{
+  opacity: 0.9;
+  display: inline-block;
+}
+
+footer, ul{
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-style: none;
+  line-height: 0.2;
+  text-align: center;
+}
+footer ul li{
+  display: inline-block;
+  
+}

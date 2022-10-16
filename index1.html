@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 4</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+
+      body {
+        background-color: #aebdca;
+        font-family: "Roboto", sans-serif;
+      }
+
+      li,
+      a,
+      button {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+        margin: auto;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+      }
+
+      .logo {
+        cursor: pointer;
+      }
+
+      .nav__links {
+        list-style: none;
+      }
+
+      .nav__links li {
+        display: inline-block;
+        padding: 0px 20px;
+      }
+
+      .nav__links li a {
+        transition: all 0.3s ease 0s;
+      }
+
+      .nav__links li a:hover {
+        color: #0088a9;
+      }
+
+      button {
+        padding: 9px 25px;
+        background-color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+      }
+
+      button:hover {
+        background-color: rgb(0, 136, 139, 1);
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Header of page-->
+    <header>
+      <!--Navbar-->
+      <img src="duolingo-logo.png" alt="duolingo-logo" />
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="https://github.com/abdillahmufki"
+        ><button>Contact</button></a
+      >
+    </header>
+
+    <hr />
+    <div>
+      <table cellspacing="20">
+        <tr>
+          <td>
+            <img
+              src="https://github.com/abdillahmufki/cv/blob/main/mufki.png?raw=true"
+              alt="mufki profile image"
+            />
+          </td>
+          <td>
+            <h1>Abdillah Mufki Auzan Mubin</h1>
+            <p>
+              <em
+                >Founder
+                <strong
+                  ><a href="https://www.instagram.com/mufkimustache/"
+                    >UlemYuk</a
+                  ></strong
+                ></em
+              >
+            </p>
+
+            <p>
+              I am student on Widyatama University. I love coffee and Holiday.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <hr />
+
+    <!--This is Content-->
+    <h2>My first paragraph.</h2>
+    <p>
+      Morbi vestibulum massa et massa tincidunt egestas.
+      <mark
+        >Suspendisse euismod viverra fringilla. Duis commodo orci ut orci
+        convallis, eu tincidunt eros fringilla.</mark
+      >
+      <br />Fusce facilisis ut leo a consequat. Ut ac eros semper, fermentum
+      lorem sed, porta justo. In tincidunt, nisi vel efficitur sodales, eros
+      eros rhoncus dolor, <br />a mollis dui enim non metus. Phasellus egestas
+      purus eget velit posuere porta. Ut fermentum lobortis risus, euismod
+      tempor erat mattis vel.
+    </p>
+
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, <br />when an unknown printer took a galley of type and scrambled
+      it to make a type specimen book. It has survived not only five centuries,
+      but also the leap <br />into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, <br />and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum.
+    </p>
+
+    <hr />
+
+    <!--Content-->
+    <h3>Books and Teaching</h3>
+    <ul>
+      <li>The Complete Fullstack Javascript Bootcamp</li>
+      <li>The Complete Fullstack Laravel Bootcamp</li>
+      <li>The Complete Fullstack Javascipt Mern</li>
+      <li>The Complete Fullstack Immersive Javascipt Bootcamp Hacktiv8</li>
+    </ul>
+
+    <h3>Work Experience</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2021 - 2021</td>
+          <td>Front End Web Developer</td>
+        </tr>
+
+        <tr>
+          <td>2022 - 2022</td>
+          <td>UI/UX Designer</td>
+        </tr>
+      </tbody>
+
+      <tfoot></tfoot>
+    </table>
+
+    <h3>Skills</h3>
+    <table border="1">
+      <tr>
+        <td>Front End Web Developer⭐⭐⭐⭐⭐</td>
+        <td>Back End Web Developer ⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Photography ⭐⭐⭐⭐⭐</td>
+        <td>Design ⭐⭐⭐⭐</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!--This Is Footer-->
+    <footer>
+      <div>
+        <p class="footer">
+          <em>Created With Love by Abdillah Mufki Auzan Mubin❤️</em>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
